@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Socks | GiftSeason</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+         <div class="navbar">
+            <div class="logo">
+            <img src="images/giftseason-logo.png" width="125px">            
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="homepage.html" target="_blank">Home</a></li>
+                <li><a href="aboutpage.html" target="_blank">About</a></li>
+                <li><a href="allproducts -.html" target="_blank">All Products</a></li>                
+                <li><a href="https://www.linkedin.com/in/tatyana-g-6695381a7/" target="_blank">Contact</a></li>                
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+ </div>
+</div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Socks</h2>
+        
+    </div>
+        
+        <div class="col-4">
+            <a href="socks.html" target="_blank"><img src="images/recentproduct.png" width="250px"></a>
+            <h4>Hand-Knitted Socks</h4>
+            <p>$8.00-15.00/pair</p>
+        </div>
+        
+        
+        
+    </div>
+
+   <!---footer---->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">  
+                <p><a href="interiordecoritems.html" target="_blank">Interior Decor Items</a></p>              
+            </div>
+            <div class="footer-col-2">  
+                <p><a href="jewellery.html" target="_blank">Jewellery</a></p>              
+            </div>
+            <div class="footer-col-3">  
+                <p><a href="toys.html" target="_blank">Toys</a></p>              
+            </div>
+            <div class="footer-col-4">  
+                <p><a href="sockspage.html" target="_blank">Socks</a></p>              
+            </div>
+            <div class="footer-col-5">
+                <p><a href="https://www.instagram.com/artnatureinsights/">Contact & Order</a></p>
+            </div>
+            <div class="footer-col-6"> 
+                <p><a href="https://www.instagram.com/tatiana_gifts_mood/" target="_blank">Join us on Instagram</a></p>               
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &#169; 2024 - Tatyana Garkavaya and the GiftSeason</p>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
