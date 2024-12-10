@@ -25,6 +25,19 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+.flag-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    float: right;   
+    
+}
+.flag-button img {
+    width: 30px;
+    height: 20px;
+    float: right;          
+    
+}
 a{
     text-decoration: none;
     color: maroon;
@@ -185,7 +198,7 @@ h1{
 }
 
 .footer{
-    background: #563434;
+    background: white;
     color: bisque;
     font-size: 14px;
     padding: 60px 0 20px;
@@ -201,7 +214,7 @@ ul{
 }
 .copyright{
     text-align: left;
-    color: tan;
+    color: #563434;
 }
 .menu-icon{
     width: 28px;
